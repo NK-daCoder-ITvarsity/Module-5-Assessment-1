@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hsl(240, 100%, 7%);
+    font-family: sans-serif;
+}
+
+:root {
+    --consistant-padding: 1em;
+}
+
+.main {
+    margin-bottom: 4em;
+    color: white;
+    padding: var(--consistant-padding);
+}
+
+.header-fixed--bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(#007dc1, #0061a7);
+    width: 100%;
+}
+
+.nav__ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 1em;
+}
+
+.nav__ul li {
+    list-style-type: none;
+   
+}
+
+.nav__ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.content__heading {
+    padding-bottom: var(--consistant-padding);
+}
+
+.section__facts {
+    padding-top: var(--consistant-padding);
+    padding-bottom: var(--consistant-padding);
+}
+
+.section-facts__ul {
+    padding: var(--consistant-padding);
+}
+
+/* =============================================== Content ============================================= */
+
+h1 {
+    font-weight: 100;
+    font-size: 66px;
+    text-shadow: 0 0 10px #000000;
+    text-transform: uppercase;
+    padding-bottom: var(--consistant-padding);
+}
+
+p.intro {
+    font-size: 26px;
+    font-weight: 200;
+    text-shadow: 0 0 10px #ffffff;
+    padding-bottom: var(--consistant-padding);
+}
+
+#video {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.main {
+    background-image: url("../images/earth-sunrise.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(0, 0%, 0%, 0.705);
+    background-blend-mode: overlay;
+    
+}
+

@@ -393,6 +393,10 @@ p, a {
 }
 
 /* --- :visited means that when a link has been visited it will display white --- */
+a {
+    color: white;
+}
+
 a:visited {
     color: white;
 }
