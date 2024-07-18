@@ -7,20 +7,3 @@
   and sizes.
 </p>
 
-<h2>Table Of Content</h2>
-<ul>
-  <li>
-    <a href="#design-brief">Design Brief...</a>
-  </li>
-  <li>
-    <a href="#challenges">Challenges...</a>
-  </li>
-  <li>
-    <a href="#tools-used">Tools Used...</a>
-  </li>
-  <li>
-    <a href="#liscense">Licenese...</a>
-  </li>
-</ul>
-
-<h2 id="design-brief">Design Brief</h2>
